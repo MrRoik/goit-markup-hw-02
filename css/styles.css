@@ -1,7 +1,9 @@
 a {
     text-decoration: none;
 }
-
+.body {
+    font-family: 'Raleway';
+}
 header {
     background: #FFF;
 }
@@ -17,11 +19,13 @@ header {
     color: #F4F4FD;
 }
 .nav {
-    font-family: Roboto;
+    font-family: 'Roboto';
+    font-weight: 500;
     color: #2E2F42;
 }
 .address {
-    font-family: Roboto;
+    font-family: 'Roboto';
+    font-weight: 400;
     color: #434455;
 }
 
@@ -30,14 +34,21 @@ footer {
 }
 .text-footer {
     color: var(--cloud, #F4F4FD);
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 
 .main {
-    font-family: Roboto;
+    font-family: 'Roboto';
     color: var(--navyblue, #2E2F42);
     background: #FFF;
+    font-weight: 400;
 }
 
+.h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+}
 .hero_image {
     background: var(--navyblue, #2E2F42);
     color: #FFF;
@@ -45,17 +56,29 @@ footer {
 .button {
     background: var(--iris, #4D5AE5);
     color: var(--white, #FFF);
+    font-family: 'Roboto';
+    font-weight: 500;
 }
 
 .text-description {
     color: var(--slate, #434455);
+    font-weight: 500;
 }
 
+.headings {
+    font-weight: 700;
+}
+
+.h3 {
+    font-weight: 500;
+}
 .section-3 {
     background: var(--cloud, #F4F4FD);
 }
 
 .list {
+    font-family: 'Roboto';
+    color: var(--navyblue, #2E2F42);
     list-style: none;
 }
 
@@ -66,8 +89,12 @@ footer {
     background: var(--cloud, #F4F4FD);
     color: var(--iris, #4D5AE5);
     cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
 }
 .button-filters:hover {
     background: var(--ocean, #404BBF);
     color: var(--white, #FFF);
+    font-family: 'Roboto';
+    font-weight: 500;
 }
