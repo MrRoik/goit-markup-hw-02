@@ -1,0 +1,73 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #FFF;
+}
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+.logocolor {
+    color: #2E2F42;
+}
+.logocolor-footer {
+    color: #F4F4FD;
+}
+.nav {
+    font-family: Roboto;
+    color: #2E2F42;
+}
+.address {
+    font-family: Roboto;
+    color: #434455;
+}
+
+footer {
+    background: #2E2F42;
+}
+.text-footer {
+    color: var(--cloud, #F4F4FD);
+}
+
+.main {
+    font-family: Roboto;
+    color: var(--navyblue, #2E2F42);
+    background: #FFF;
+}
+
+.hero_image {
+    background: var(--navyblue, #2E2F42);
+    color: #FFF;
+}
+.button {
+    background: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
+}
+
+.text-description {
+    color: var(--slate, #434455);
+}
+
+.section-3 {
+    background: var(--cloud, #F4F4FD);
+}
+
+.list {
+    list-style: none;
+}
+
+.filters {
+    color: var(--iris, #4D5AE5);
+}
+.button-filters {
+    background: var(--cloud, #F4F4FD);
+    color: var(--iris, #4D5AE5);
+    cursor: pointer;
+}
+.button-filters:hover {
+    background: var(--ocean, #404BBF);
+    color: var(--white, #FFF);
+}
