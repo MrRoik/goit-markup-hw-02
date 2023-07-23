@@ -70,6 +70,9 @@ header {
 .contacts:focus {
     color: var(--secondary-blue-color);
 }
+.card {
+    background-color: var(--primary-white-color);
+}
 footer {
     background: var(--primary-black-color);
 }
@@ -137,7 +140,7 @@ footer {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.section-3 {
+.section-our-team {
     background: var(--cloud, #F4F4FD);
 }
 
