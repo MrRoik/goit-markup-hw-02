@@ -40,7 +40,7 @@ header {
 
 .heading {
     font-family: var(--primary-font);
-    color: var(--secondary-blue-color)
+    color: var(--primary-black-color)
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -88,7 +88,7 @@ footer {
     letter-spacing: 0.02em
 }
 
-.h1section {
+.h-one-section {
     font-size: 56px;
     text-align: center;
     line-height: 1.07;
@@ -131,7 +131,7 @@ footer {
     text-transform: capitalize
 }
 
-.h3section {
+.h-three-section {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
