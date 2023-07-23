@@ -40,12 +40,17 @@ header {
 
 .heading {
     font-family: var(--primary-font);
+    color: var(--secondary-blue-color)
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
 }
+
 .heading:hover {
+    color: var(--secondary-blue-color);
+}
+.heading:focus {
     color: var(--secondary-blue-color);
 }
 .address {
@@ -60,6 +65,9 @@ header {
     letter-spacing: 0.02em
 }
 .contacts:hover {
+    color: var(--secondary-blue-color);
+}
+.contacts:focus {
     color: var(--secondary-blue-color);
 }
 footer {
@@ -77,12 +85,15 @@ footer {
     font-family: var(--primary-font);
     color: var(--primary-black-color);
     background: var(--primary-white-color);
+    letter-spacing: 0.02em
 }
 
-h1 {
+.h1section {
     font-size: 56px;
+    text-align: center;
     line-height: 1.07;
     font-weight: 700;
+    letter-spacing: 0.02em;
 }
 .hero_image {
     background: var(--primary-black-color);
@@ -96,8 +107,14 @@ h1 {
     line-height: 1.5;
     font-weight: 500;
     cursor: pointer;
+    letter-spacing: 0.04em;
 }
-
+.button:hover {
+    background-color: var(--secondary-blue-color);
+}
+.button:focus {
+    background-color: var(--secondary-blue-color);
+}
 .text-description {
     color: var(--primary-grey-color);
     font-size: 16px;
@@ -107,14 +124,18 @@ h1 {
 
 .headings {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
 }
 
-h3 {
+.h3section {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 .section-3 {
     background: var(--cloud, #F4F4FD);
