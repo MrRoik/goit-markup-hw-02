@@ -1,4 +1,4 @@
-.body:root {
+:root {
     --primary-font: "Roboto", sans-serif;
     --primary-black-color: #2E2F42;
     --primary-grey-color: #434455;
@@ -79,7 +79,7 @@ footer {
     background: var(--primary-white-color);
 }
 
-.h1 {
+h1 {
     font-size: 56px;
     line-height: 1.07;
     font-weight: 700;
@@ -111,7 +111,7 @@ footer {
     font-weight: 700;
 }
 
-.h3 {
+h3 {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
