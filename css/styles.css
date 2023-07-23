@@ -1,5 +1,5 @@
-:root {
-    --primary-font: "Roboto";
+.body:root {
+    --primary-font: "Roboto", sans-serif;
     --primary-black-color: #2E2F42;
     --primary-grey-color: #434455;
     --primary-white-color: #FFF;
@@ -10,7 +10,7 @@ a {
     text-decoration: none;
     color: var(--primary-black-color);
 }
-.body {
+body {
     font-family: var(--primary-font);
     color: var(--primary-grey-color);
     background: var(--primary-white-color);
