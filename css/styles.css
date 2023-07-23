@@ -40,7 +40,7 @@ header {
 
 .heading {
     font-family: var(--primary-font);
-    color: var(--primary-black-color)
+    color: var(--primary-black-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -62,7 +62,7 @@ header {
     color: var(--primary-grey-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 .contacts:hover {
     color: var(--secondary-blue-color);
@@ -78,14 +78,14 @@ footer {
     font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .main {
     font-family: var(--primary-font);
     color: var(--primary-black-color);
     background: var(--primary-white-color);
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .h-one-section {
@@ -120,6 +120,7 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .headings {
